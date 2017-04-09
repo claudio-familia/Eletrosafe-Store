@@ -6,7 +6,9 @@
 	</div>
 	<div class="row">		
 		<div class="col-md-6 col-sm-12">
-			<img src="{{$product->image}}" width="500px" alt="">
+			<div class="imgBox">
+				<img src="{{$product->image}}" width="500px" data-origin="{{$product->image}}">
+			</div>
 		</div>		
 		<div class="col-md-6 col-sm-12">
 			<form action="">

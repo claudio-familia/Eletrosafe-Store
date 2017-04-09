@@ -22,8 +22,7 @@
 
             <div class="form-group">
                 <label for="mensaje"> Mensaje</label>
-                <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
-                
+                <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>                
             </div>
 
              <div class="form-group">

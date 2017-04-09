@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta charset="utf-8" name="viewport" content="initial-scale=1,maximum-scale=1">
 	<title>ElectroSafe Store</title>
 	<script type="text/javascript" src="{{asset('js/jquery.js')}}"></script> 
 	<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/jquery-ui.css')}}" rel="stylesheet">
-    <link href="{{asset('css/estilos.css')}}" rel="stylesheet">
+    <link href="{{asset('css/estilos.css')}}" rel="stylesheet">       
 </head>
 <body>
 	<header>
@@ -124,5 +125,23 @@
 
 	<script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"> </script>
     <script type="text/javascript" src="{{asset('js/jquery-ui.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('https://code.jquery.com/jquery-1.12.4.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/newWaterfall.js')}}"></script> 
+    <script type="text/javascript" src="{{asset('js/jquery.imgzoom.js')}}"></script>    
+    <script type="text/javascript">
+    $(document).ready(function waterfall() {
+		$('#waterfall').NewWaterfall({
+		  width: 360,
+		  delay: 60,
+		});		
+
+
+	$('.imgBox').imgZoom();
+
+	});
+
+    </script>
+    
+
 </body>
 </html>
